@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+:root{
+    --main-color:#3D0000;
+    --text-color:#f1f1f1;
+    --hover-color:#950101;
+    --third-color:#FF0000;
+    --input-text-color:#000000;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(100deg, var(--hover-color),var(--third-color));
+}
+
+h1{
+    font-size: 80px;
+    color: var(--text-color);
+}
+#tests{
+    padding: 10px 8px;
+    height: 40px;
+    width: 360px;
+    font-size: 15px;
+    border-radius: 20px;
+    color: var(--input-text-color);
+    border: none;
+}
+.addbtn{
+    padding: 10px 8px;
+    height: 63px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    color: var(--text-color);
+    background-color: var(--third-color);
+    cursor: pointer;
+}
+.addbtn:hover{
+    background-color: var(--hover-color);
+}
+#list{
+    margin: 50px 30px;
+    
+}
+
+li{
+    color: var(--text-color);
+    padding: 10px 8px;
+    height: 40px;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    color: var(--input-text-color);
+    list-style: none;
+    cursor: pointer;
+    background-color: var(--text-color);
+    border-radius: 20px;
+}
+li:hover{
+    color: #f1f1f1;
+    background-color: var(--third-color);
+}
